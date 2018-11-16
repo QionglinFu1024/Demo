@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0FC02A3951CAD09991E69801 /* libPods-000---构建HTTP.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BEDDEB4425060A5E3F472EB1 /* libPods-000---构建HTTP.a */; };
+		7A56A4F5212A945D000CAC7C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A56A4F4212A945D000CAC7C /* AppDelegate.m */; };
+		7A56A4F8212A945D000CAC7C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A56A4F7212A945D000CAC7C /* ViewController.m */; };
+		7A56A4FB212A945D000CAC7C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A56A4F9212A945D000CAC7C /* Main.storyboard */; };
+		7A56A4FD212A9464000CAC7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A56A4FC212A9464000CAC7C /* Assets.xcassets */; };
+		7A56A500212A9464000CAC7C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A56A4FE212A9464000CAC7C /* LaunchScreen.storyboard */; };
+		7A56A503212A9464000CAC7C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A56A502212A9464000CAC7C /* main.m */; };
+		7A86DA41212BE4B600C33396 /* KCService.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A86DA3A212BE4B600C33396 /* KCService.m */; };
+		7A86DA42212BE4B600C33396 /* KCURLRequestGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A86DA3C212BE4B600C33396 /* KCURLRequestGenerator.m */; };
+		7A86DA43212BE4B600C33396 /* KCUploadFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A86DA3D212BE4B600C33396 /* KCUploadFile.m */; };
+		7A86DA44212BE4B600C33396 /* KCNetworkClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A86DA3E212BE4B600C33396 /* KCNetworkClient.m */; };
+		7A86DA50212BE50300C33396 /* KCAPIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A86DA4F212BE50300C33396 /* KCAPIManager.m */; };
+		7A86DA52212C00A300C33396 /* q1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 7A86DA51212C00A300C33396 /* q1.mp4 */; };
+		7A86DA54212C025A00C33396 /* Test.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 7A86DA53212C025900C33396 /* Test.mp4 */; };
+		7A86DA58212C36EF00C33396 /* KCNetworkCacheManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A86DA57212C36EF00C33396 /* KCNetworkCacheManager.m */; };
+		7A86DA5B212C39B800C33396 /* KCAPIManager+RAC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A86DA59212C39B700C33396 /* KCAPIManager+RAC.m */; };
+		7A86DA5E212C3D1600C33396 /* KCUserAPIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A86DA5C212C3D1500C33396 /* KCUserAPIManager.m */; };
+		7A86DA61212C4AC100C33396 /* KCHTTPNetworkTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A86DA60212C4AC100C33396 /* KCHTTPNetworkTool.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		78BFB6D5939D66C2F0227F82 /* Pods-000---构建HTTP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-000---构建HTTP.release.xcconfig"; path = "Pods/Target Support Files/Pods-000---构建HTTP/Pods-000---构建HTTP.release.xcconfig"; sourceTree = "<group>"; };
+		7A56A4F0212A945D000CAC7C /* 000---构建HTTP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "000---构建HTTP.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A56A4F3212A945D000CAC7C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7A56A4F4212A945D000CAC7C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7A56A4F6212A945D000CAC7C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7A56A4F7212A945D000CAC7C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7A56A4FA212A945D000CAC7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7A56A4FC212A9464000CAC7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7A56A4FF212A9464000CAC7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7A56A501212A9464000CAC7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A56A502212A9464000CAC7C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7A86DA39212BE4B500C33396 /* KCNetworkClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCNetworkClient.h; sourceTree = "<group>"; };
+		7A86DA3A212BE4B600C33396 /* KCService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCService.m; sourceTree = "<group>"; };
+		7A86DA3B212BE4B600C33396 /* KCUploadFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCUploadFile.h; sourceTree = "<group>"; };
+		7A86DA3C212BE4B600C33396 /* KCURLRequestGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCURLRequestGenerator.m; sourceTree = "<group>"; };
+		7A86DA3D212BE4B600C33396 /* KCUploadFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCUploadFile.m; sourceTree = "<group>"; };
+		7A86DA3E212BE4B600C33396 /* KCNetworkClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCNetworkClient.m; sourceTree = "<group>"; };
+		7A86DA3F212BE4B600C33396 /* KCService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCService.h; sourceTree = "<group>"; };
+		7A86DA40212BE4B600C33396 /* KCURLRequestGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCURLRequestGenerator.h; sourceTree = "<group>"; };
+		7A86DA45212BE4E000C33396 /* KCNetworkTaskError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCNetworkTaskError.h; sourceTree = "<group>"; };
+		7A86DA46212BE4E000C33396 /* KCNetworkConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCNetworkConfig.h; sourceTree = "<group>"; };
+		7A86DA4E212BE50300C33396 /* KCAPIManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCAPIManager.h; sourceTree = "<group>"; };
+		7A86DA4F212BE50300C33396 /* KCAPIManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCAPIManager.m; sourceTree = "<group>"; };
+		7A86DA51212C00A300C33396 /* q1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = q1.mp4; sourceTree = "<group>"; };
+		7A86DA53212C025900C33396 /* Test.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Test.mp4; sourceTree = "<group>"; };
+		7A86DA55212C271300C33396 /* KCHTTPNetwork.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KCHTTPNetwork.pch; sourceTree = "<group>"; };
+		7A86DA56212C36EF00C33396 /* KCNetworkCacheManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KCNetworkCacheManager.h; sourceTree = "<group>"; };
+		7A86DA57212C36EF00C33396 /* KCNetworkCacheManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KCNetworkCacheManager.m; sourceTree = "<group>"; };
+		7A86DA59212C39B700C33396 /* KCAPIManager+RAC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "KCAPIManager+RAC.m"; sourceTree = "<group>"; };
+		7A86DA5A212C39B800C33396 /* KCAPIManager+RAC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "KCAPIManager+RAC.h"; sourceTree = "<group>"; };
+		7A86DA5C212C3D1500C33396 /* KCUserAPIManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCUserAPIManager.m; sourceTree = "<group>"; };
+		7A86DA5D212C3D1600C33396 /* KCUserAPIManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCUserAPIManager.h; sourceTree = "<group>"; };
+		7A86DA5F212C4AC100C33396 /* KCHTTPNetworkTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KCHTTPNetworkTool.h; sourceTree = "<group>"; };
+		7A86DA60212C4AC100C33396 /* KCHTTPNetworkTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KCHTTPNetworkTool.m; sourceTree = "<group>"; };
+		BEDDEB4425060A5E3F472EB1 /* libPods-000---构建HTTP.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-000---构建HTTP.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0CA4067052EC5FFE5D57867 /* Pods-000---构建HTTP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-000---构建HTTP.debug.xcconfig"; path = "Pods/Target Support Files/Pods-000---构建HTTP/Pods-000---构建HTTP.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7A56A4ED212A945D000CAC7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FC02A3951CAD09991E69801 /* libPods-000---构建HTTP.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7A56A4E7212A945D000CAC7C = {
+			isa = PBXGroup;
+			children = (
+				7A56A4F2212A945D000CAC7C /* 000---构建HTTP */,
+				7A56A4F1212A945D000CAC7C /* Products */,
+				FB2F89686AA74C1E745E6FA1 /* Pods */,
+				9D696A8533EBD061B6779CC5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7A56A4F1212A945D000CAC7C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7A56A4F0212A945D000CAC7C /* 000---构建HTTP.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7A56A4F2212A945D000CAC7C /* 000---构建HTTP */ = {
+			isa = PBXGroup;
+			children = (
+				7A56A509212A949B000CAC7C /* KCHTTPNetwork */,
+				7A56A4F3212A945D000CAC7C /* AppDelegate.h */,
+				7A56A4F4212A945D000CAC7C /* AppDelegate.m */,
+				7A56A4F6212A945D000CAC7C /* ViewController.h */,
+				7A56A4F7212A945D000CAC7C /* ViewController.m */,
+				7A86DA5D212C3D1600C33396 /* KCUserAPIManager.h */,
+				7A86DA5C212C3D1500C33396 /* KCUserAPIManager.m */,
+				7A86DA53212C025900C33396 /* Test.mp4 */,
+				7A86DA51212C00A300C33396 /* q1.mp4 */,
+				7A56A4F9212A945D000CAC7C /* Main.storyboard */,
+				7A56A4FC212A9464000CAC7C /* Assets.xcassets */,
+				7A56A4FE212A9464000CAC7C /* LaunchScreen.storyboard */,
+				7A56A501212A9464000CAC7C /* Info.plist */,
+				7A56A502212A9464000CAC7C /* main.m */,
+				7A86DA55212C271300C33396 /* KCHTTPNetwork.pch */,
+			);
+			path = "000---构建HTTP";
+			sourceTree = "<group>";
+		};
+		7A56A509212A949B000CAC7C /* KCHTTPNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				7A86DA4E212BE50300C33396 /* KCAPIManager.h */,
+				7A86DA4F212BE50300C33396 /* KCAPIManager.m */,
+				7A86DA5A212C39B800C33396 /* KCAPIManager+RAC.h */,
+				7A86DA59212C39B700C33396 /* KCAPIManager+RAC.m */,
+				7A86DA40212BE4B600C33396 /* KCURLRequestGenerator.h */,
+				7A86DA3C212BE4B600C33396 /* KCURLRequestGenerator.m */,
+				7A86DA39212BE4B500C33396 /* KCNetworkClient.h */,
+				7A86DA3E212BE4B600C33396 /* KCNetworkClient.m */,
+				7A86DA3B212BE4B600C33396 /* KCUploadFile.h */,
+				7A86DA3D212BE4B600C33396 /* KCUploadFile.m */,
+				7A86DA3F212BE4B600C33396 /* KCService.h */,
+				7A86DA3A212BE4B600C33396 /* KCService.m */,
+				7A86DA56212C36EF00C33396 /* KCNetworkCacheManager.h */,
+				7A86DA57212C36EF00C33396 /* KCNetworkCacheManager.m */,
+				7A86DA46212BE4E000C33396 /* KCNetworkConfig.h */,
+				7A86DA45212BE4E000C33396 /* KCNetworkTaskError.h */,
+				7A86DA5F212C4AC100C33396 /* KCHTTPNetworkTool.h */,
+				7A86DA60212C4AC100C33396 /* KCHTTPNetworkTool.m */,
+			);
+			path = KCHTTPNetwork;
+			sourceTree = "<group>";
+		};
+		9D696A8533EBD061B6779CC5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BEDDEB4425060A5E3F472EB1 /* libPods-000---构建HTTP.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FB2F89686AA74C1E745E6FA1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E0CA4067052EC5FFE5D57867 /* Pods-000---构建HTTP.debug.xcconfig */,
+				78BFB6D5939D66C2F0227F82 /* Pods-000---构建HTTP.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7A56A4EF212A945D000CAC7C /* 000---构建HTTP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A56A506212A9464000CAC7C /* Build configuration list for PBXNativeTarget "000---构建HTTP" */;
+			buildPhases = (
+				BFD30AE5CAFD76260F682946 /* [CP] Check Pods Manifest.lock */,
+				7A56A4EC212A945D000CAC7C /* Sources */,
+				7A56A4ED212A945D000CAC7C /* Frameworks */,
+				7A56A4EE212A945D000CAC7C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "000---构建HTTP";
+			productName = "000---构建HTTP";
+			productReference = 7A56A4F0212A945D000CAC7C /* 000---构建HTTP.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7A56A4E8212A945D000CAC7C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = Cooci;
+				TargetAttributes = {
+					7A56A4EF212A945D000CAC7C = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 7A56A4EB212A945D000CAC7C /* Build configuration list for PBXProject "000---构建HTTP" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7A56A4E7212A945D000CAC7C;
+			productRefGroup = 7A56A4F1212A945D000CAC7C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7A56A4EF212A945D000CAC7C /* 000---构建HTTP */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7A56A4EE212A945D000CAC7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A56A500212A9464000CAC7C /* LaunchScreen.storyboard in Resources */,
+				7A56A4FD212A9464000CAC7C /* Assets.xcassets in Resources */,
+				7A56A4FB212A945D000CAC7C /* Main.storyboard in Resources */,
+				7A86DA52212C00A300C33396 /* q1.mp4 in Resources */,
+				7A86DA54212C025A00C33396 /* Test.mp4 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BFD30AE5CAFD76260F682946 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-000---构建HTTP-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7A56A4EC212A945D000CAC7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A86DA61212C4AC100C33396 /* KCHTTPNetworkTool.m in Sources */,
+				7A86DA43212BE4B600C33396 /* KCUploadFile.m in Sources */,
+				7A86DA5E212C3D1600C33396 /* KCUserAPIManager.m in Sources */,
+				7A56A4F8212A945D000CAC7C /* ViewController.m in Sources */,
+				7A56A503212A9464000CAC7C /* main.m in Sources */,
+				7A86DA58212C36EF00C33396 /* KCNetworkCacheManager.m in Sources */,
+				7A56A4F5212A945D000CAC7C /* AppDelegate.m in Sources */,
+				7A86DA41212BE4B600C33396 /* KCService.m in Sources */,
+				7A86DA42212BE4B600C33396 /* KCURLRequestGenerator.m in Sources */,
+				7A86DA50212BE50300C33396 /* KCAPIManager.m in Sources */,
+				7A86DA44212BE4B600C33396 /* KCNetworkClient.m in Sources */,
+				7A86DA5B212C39B800C33396 /* KCAPIManager+RAC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7A56A4F9212A945D000CAC7C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A56A4FA212A945D000CAC7C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7A56A4FE212A9464000CAC7C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A56A4FF212A9464000CAC7C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7A56A504212A9464000CAC7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7A56A505212A9464000CAC7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7A56A507212A9464000CAC7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0CA4067052EC5FFE5D57867 /* Pods-000---构建HTTP.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U5LAHK8PW6;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/000---构建HTTP/KCHTTPNetwork.pch";
+				INFOPLIST_FILE = "000---构建HTTP/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tz.cn.-00-----HTTP";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7A56A508212A9464000CAC7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78BFB6D5939D66C2F0227F82 /* Pods-000---构建HTTP.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U5LAHK8PW6;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/000---构建HTTP/KCHTTPNetwork.pch";
+				INFOPLIST_FILE = "000---构建HTTP/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tz.cn.-00-----HTTP";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7A56A4EB212A945D000CAC7C /* Build configuration list for PBXProject "000---构建HTTP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A56A504212A9464000CAC7C /* Debug */,
+				7A56A505212A9464000CAC7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A56A506212A9464000CAC7C /* Build configuration list for PBXNativeTarget "000---构建HTTP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A56A507212A9464000CAC7C /* Debug */,
+				7A56A508212A9464000CAC7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7A56A4E8212A945D000CAC7C /* Project object */;
+}
